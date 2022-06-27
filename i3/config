@@ -204,7 +204,7 @@ gaps outer 15
 exec_always feh --bg-fill /home/fmst/Pictures/lofi-wallpaper-21010623315740.jpg
 
 # Applications
-for_window [class="firefox"] move to workspace $ws2
+for_window [class="Brave-browser"] move to workspace $ws2
 for_window [class="Spotify"] move to workspace $ws3
 for_window [class="discord"] move to workspace $ws4
 
@@ -213,7 +213,7 @@ exec_always --no-startup-id autotiling
 exec_always --no-startup-id compton --config ~/.config/compton/compton.conf 
 
 exec --no-startup-id alacritty 
-exec --no-startup-id firefox
+exec --no-startup-id brave 
 exec --no-startup-id spotify 
 exec --no-startup-id discord 
 
